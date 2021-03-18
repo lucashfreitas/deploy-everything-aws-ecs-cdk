@@ -1,0 +1,34 @@
+{
+  "name": "lib",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "synth": "yarn build && npx cdk synth"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.94.1",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "typescript": "~3.9.7"
+   
+  },
+  "peerDependencies": {
+    "@aws-cdk/core": "1.94.1"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-applicationautoscaling": "^1.94.1",
+    "@aws-cdk/aws-ec2": "^1.94.1",
+    "@aws-cdk/aws-ecs": "^1.94.1",
+    "@aws-cdk/aws-elasticloadbalancing": "^1.94.1",
+    "@aws-cdk/aws-rds": "^1.94.1",
+    "@aws-cdk/aws-route53": "^1.94.1",
+    "@aws-cdk/aws-s3": "^1.94.1",
+    "@aws-cdk/core": "1.94.1"
+  }
+}

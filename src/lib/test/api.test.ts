@@ -9,7 +9,6 @@ import { ApiStack } from '../backend/api-stack';
 test('SNS Topic Created', () => {
   const app = new cdk.App();
   const stack = new ApiStack(app, "MyTestConstruct", {
-    appName: "TestApi"
   })
   
   // THEN

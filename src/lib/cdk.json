@@ -1,3 +1,6 @@
 {
-    "app": "node dist/index"
+    "app": "node dist/index",
+    "context": {
+      
+    }
   }

@@ -1,9 +1,15 @@
 {
-  "name": "deploy-everything-aws-ecs-cdk",
+  "name": "deploy-cdk",
   "version": "1.0.0",
   "description": "Deploy services on AWS ECS using CDK",
   "main": "index.js",
   "repository": "https://github.com/lucashfreitas/deploy-everything-aws-ecs-cdk.git",
   "author": "Lucas Santos",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "workspaces": [
+    "packages/deploy",
+    "packages/node-api"
+  ]
 }

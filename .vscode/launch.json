@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeArgs": ["-r", "./node_modules/ts-node/register/transpile-only"],
+      "args": [
+        "${workspaceFolder}/packages/deploy/bin/aws-cdk-vscode-example.ts"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target":"ES2018",
+    "target": "ES2018",
     "module": "commonjs",
     "lib": ["es2018"],
     "outDir": "dist/",
@@ -17,9 +17,8 @@
     "inlineSourceMap": true,
     "inlineSources": true,
     "experimentalDecorators": true,
-    "strictPropertyInitialization":false,
-    "typeRoots": ["./node_modules/@types"]
+    "strictPropertyInitialization": false,
+    "typeRoots": ["./node_modules/@types", "../../node_modules/@types"]
   },
   "exclude": ["cdk.out", "dist/"]
 }
-
